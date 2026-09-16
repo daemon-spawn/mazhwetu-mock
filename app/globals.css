@@ -99,7 +99,8 @@ img { max-width: 100%; }
 .hero__title { max-width: 1040px; margin:0; font-size: clamp(52px, 8vw, 126px); font-weight:500; line-height:.9; letter-spacing:-.065em; }
 .hero__title em { color:var(--green); font-style:normal; }
 .hero__body { max-width: 390px; font-size: 15px; line-height:1.65; color:rgba(245,243,236,.75); margin: 0 0 22px; }
-.hero__actions { display:flex; flex-wrap:wrap; gap:10px; }
+.hero__actions { display:flex; flex-wrap:nowrap; gap:10px; }
+.hero__actions .action { flex:1 1 0; min-width:0; padding-inline:12px; white-space:nowrap; }
 .hero__meta { position:absolute; left:0; bottom:20px; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:rgba(245,243,236,.56); }
 .hero__corner { justify-self:end; width: 1px; height: 110px; background: linear-gradient(to bottom, rgba(143,197,108,0), rgba(143,197,108,.8)); }
 
